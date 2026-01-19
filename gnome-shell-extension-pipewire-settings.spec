@@ -9,10 +9,10 @@ Summary:        Minimal PipeWire configuration menu for GNOME Shell
 
 License:        GPL-3.0-or-later
 URL:            https://github.com/gaheldev/pipewire-settings
-Source0:        %{URL}/archive/%{commit}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:        %{url}/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
-Requires:       gnome-shell
+BuildRequires:  gnome-shell-rpm-generators
 
 %description
 A drop-down menu for GNOME Shell for configuring the PipeWire quantum and
