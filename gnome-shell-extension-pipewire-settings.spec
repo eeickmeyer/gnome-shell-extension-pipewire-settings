@@ -25,7 +25,7 @@ Persist on restart will load the current configuration on restart,
 however, settings can't be forced automatically on restart.
 
 %prep
-%autosetup -C -n pipewire-settings-%{commit}
+%autosetup -C
 
 %build
 # No build steps required
@@ -37,7 +37,7 @@ cp -a pipewire-settings@gaheldev.github.com %{buildroot}%{_datadir}/gnome-shell/
 %files
 %license LICENSE.md
 %doc README.md
-%{_datadir}/gnome-shell/extensions/pipewire-settings@gaheldev.github.com
+%{_datadir}/gnome-shell/extensions/pipewire-settings@gaheldev.github.com/
 
 %changelog
 * Fri Jan 16 2026 Erich Eickmeyer <erich@ericheickmeyer.com> - 9~git20251228.41bbf18-1.fc43
