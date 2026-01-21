@@ -40,5 +40,5 @@ cp -a pipewire-settings@gaheldev.github.com %{buildroot}%{_datadir}/gnome-shell/
 %{_datadir}/gnome-shell/extensions/pipewire-settings@gaheldev.github.com/
 
 %changelog
-* Fri Jan 16 2026 Erich Eickmeyer <erich@ericheickmeyer.com> - 9~git20251228.41bbf18-1.fc43
+* Fri Jan 16 2026 Erich Eickmeyer <erich@ericheickmeyer.com> - 9~git20251228.41bbf18-1
 - Initial release.
