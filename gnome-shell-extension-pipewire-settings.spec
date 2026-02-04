@@ -14,6 +14,8 @@ Source0:        %{url}/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
 BuildArch:      noarch
 BuildRequires:  gnome-shell-rpm-generators
 
+Requires: gnome-shell(api) = 49
+
 %description
 A drop-down menu for GNOME Shell for configuring the PipeWire quantum and
 sample rate values.
